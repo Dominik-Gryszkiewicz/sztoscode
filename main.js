@@ -1,9 +1,9 @@
 // CAROUSELTEXT
 
 const carouselText = [
-    {text: "UX/UI Designer and Front-end Developer."},
-    {text: "Web Designer and Freelancer."},
-    {text: "Based in San Francisco."}
+    {text: "Backend PHP Developer."},
+    {text: "Frontend JS Developer."},
+    {text: "Devops Linux."}
   ]
   
   $(document).ready(async function() {
@@ -60,7 +60,7 @@ const carouselText = [
       contactSection.classList.toggle('opacity')
       let showMenu = setTimeout(()=>{
         mobileMenu.classList.toggle('display')
-      },580)
+      },560)
       if (mobileMenu.classList.contains('display')) {
         clearTimeout(showMenu)
         mobileMenu.classList.toggle('display')

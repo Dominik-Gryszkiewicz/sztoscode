@@ -3,18 +3,48 @@ nav {
     justify-content: space-between;
     align-items: center;
     color: #f0f0f0;
-    font-family: 'Roboto Mono', sans-serif;
+    font-family: 'Ubuntu Mono', sans-serif;
 
     .logo {
         width: 30%;
-        margin-left: 20px;
+        margin-left: 1.3rem;
 
         h2 {
-            font-size: 1rem;
-            letter-spacing: .02rem;
+            font-size: 1.1rem;
+            letter-spacing: .03rem;
+            line-height: 105%;
+            font-weight: 400;
 
             span {
                 color: orange;
+                font-weight: 700;
+            }
+        }
+    }
+
+    .desktop-menu {
+        display: none;
+
+        ul {
+            display: flex;
+            margin-right: 15px;
+
+            li {
+                list-style: none;
+
+                a {
+                    display: block;
+                    color: #f0f0f0;
+                    text-decoration: none;
+                    font-family: 'Roboto Mono', sans-serif;
+                    font-size: 16px;
+                    padding: 20px;
+                    transition: .2s
+                }
+
+                a:hover {
+                    color: orange;
+                }
             }
         }
     }
@@ -239,10 +269,10 @@ nav {
     width: 3rem;
     height: 3rem;
     border-radius: 3px;
-    margin: 1.1rem 0.6rem;
+    margin: 1rem 0.6rem;
 
     span {
-        @include menu(1.6rem, 0.125rem, 0.45rem, white);
+        @include menu(1.6rem, 0.100rem, 0.45rem, white);
     }
 }
 
