@@ -16,9 +16,7 @@ main
             font-size: 13px
             display: inline
             font-weight: 400
-            font-family: 'Roboto Mono', sans-serif
         h1.glitch
-            font-family: 'Roboto Mono', sans-serif
             position: relative
             text-transform: uppercase
             color: #f0f0f0
@@ -62,13 +60,13 @@ main
     $steps: 20
     @for $i from 0 through $steps
         #{percentage($i*(1/$steps))}
-            clip: rect(random(150)+px, 350px, random(150)+px, 30px)
+            clip: rect(random(150)+px, 1900px, random(150)+px, 30px)
 
 @keyframes glitch-animation-2
     $steps: 20
     @for $i from 0 through $steps
         #{percentage($i*(1/$steps))}
-            clip: rect(random(150)+px, 350px, random(150)+px, 30px)
+            clip: rect(random(150)+px, 1900px, random(150)+px, 30px)
 
 .opacity
     opacity: 0

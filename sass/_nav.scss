@@ -6,13 +6,11 @@ nav {
     font-family: 'Ubuntu Mono', sans-serif;
 
     .logo {
-        width: 30%;
         margin-left: 1.3rem;
 
         h2 {
             font-size: 1.1rem;
-            letter-spacing: .03rem;
-            line-height: 105%;
+            letter-spacing: .02rem;
             font-weight: 400;
 
             span {
@@ -36,9 +34,8 @@ nav {
                     display: block;
                     color: #f0f0f0;
                     text-decoration: none;
-                    font-family: 'Roboto Mono', sans-serif;
                     font-size: 16px;
-                    padding: 20px;
+                    padding: 0 20px;
                     transition: .2s
                 }
 
