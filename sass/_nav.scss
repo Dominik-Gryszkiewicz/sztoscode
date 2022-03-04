@@ -4,18 +4,25 @@ nav {
     align-items: center;
     color: #f0f0f0;
     font-family: 'Ubuntu Mono', sans-serif;
+    transition: .7s;
 
     .logo {
         margin-left: 1.3rem;
+        cursor: pointer;
 
-        h2 {
-            font-size: 1.1rem;
-            letter-spacing: .02rem;
-            font-weight: 400;
+        a {
+            color: #f0f0f0;
+            text-decoration: none;
 
-            span {
-                color: orange;
-                font-weight: 700;
+            h2 {
+                font-size: 1.1rem;
+                letter-spacing: .02rem;
+                font-weight: 400;
+
+                span {
+                    color: orange;
+                    font-weight: 700;
+                }
             }
         }
     }

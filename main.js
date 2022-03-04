@@ -67,4 +67,25 @@ const carouselText = [
       }
   })
 
+  // LOADER
+
+  const loader = document.querySelector('.loader')
+  const nav = document.querySelector('nav')
+  const main = document.querySelector('main')
+
+  const Loading = () => {
+    loader.style.opacity = 0
+    setTimeout(()=>{
+      loader.style.display = 'none'
+      nav.style.opacity = 1
+      main.style.opacity = 1
+      contactSection.style.opacity = 1
+    },990)
+    
+  }
+
+  Loading()
+  
+
+
   
