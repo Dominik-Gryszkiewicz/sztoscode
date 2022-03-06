@@ -286,6 +286,12 @@ nav {
     }
 }
 
+.burger:hover {
+    span {
+        @include menu(1.6rem, 0.100rem, 0.45rem, orange);
+    }
+}
+
 .burger4 {
     input:checked+span {
         @include menu-close-middle();

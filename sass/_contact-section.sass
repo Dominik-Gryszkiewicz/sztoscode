@@ -104,17 +104,22 @@
                 padding: 22px 0
                 opacity: 1
                 transition: .2s
+                resize: none
             input:focus, textarea:focus
                 outline: none
                 border-bottom-color: orange
             input.active, textarea.active
                 border-bottom-color: red
+            input.active::placeholder, textarea.active::placeholder
+                color: red
             input:focus, textarea:focus
                 color: #f0f0f0
             ::placeholder
                 font-family: 'Roboto Mono', sans-serif
                 font-size: 12px
                 color: #999
+            input:focus::placeholder, textarea:focus::placeholder
+                color: #f0f0f0
             button
                 font-family: 'Roboto Mono', sans-serif
                 align-self: center
