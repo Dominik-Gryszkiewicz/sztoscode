@@ -4,8 +4,8 @@
     .container
         top: 2.4%
         bottom: 2.4%
-        left: 4.2%
-        right: 4.2%
+        left: 4.5%
+        right: 4.5%
 
 @media screen and (min-height: 780px)
     .container
@@ -73,6 +73,11 @@
         top: 1.5%
         bottom: 1.5%
 
+@media screen and (min-width: 800px) and (min-height: 1280px)
+    .container
+        top: 1.2%
+        bottom: 1.2%
+
 @media screen and (min-width: 660px) and (max-height: 430px)
     .container
         top: 3.5%
@@ -136,6 +141,7 @@
 
 @media screen and (min-height: 736px)
     nav
+        margin: 0 40px
         .logo
             a
                 h2
@@ -177,8 +183,9 @@
 
 @media screen and (min-width: 601px)
     nav
+        margin: 0 20px
         .logo
-            margin-left: 35px
+            margin-left: 30px
             a
                 h2
                     font-size: 1.4rem
@@ -195,14 +202,21 @@
             display: none
 
         .logo
-            margin-top: 1.9rem
+            margin-top: 1.8rem
 
 @media screen and (min-width: 768px) and (max-height: 630px)
     nav
         .logo
             margin-top: 1.4rem
 
-@media screen and (min-width: 1020px) and (min-height: 1024px)
+@media screen and (min-width: 960px)
+    nav
+        top: 30px
+        margin: 0 40px
+        .logo
+            margin-left: 27px
+
+@media screen and (min-width: 1020px) and (min-height: 1024px) and (min-width: 1220px)
     nav
         .logo
             margin-top: 1.8rem
@@ -212,8 +226,9 @@
 
 @media screen and (min-width: 1240px)
     nav
+        margin: 0 30px
         .logo
-            margin-left: 40px
+            margin-left: 32px
             margin-top: 1.6rem
             a
                 h2
@@ -221,6 +236,7 @@
 
 @media screen and (min-width: 1366px)
     nav
+        margin: 0 35px
         .logo
             a
                 h2
@@ -234,6 +250,13 @@
                 h2
                     font-size: 1.7rem
 
+@media screen and (min-width: 1600px)
+    nav
+        margin: 0 40px
+        .logo
+            margin-left: 32px
+            margin-top: 2.1rem
+
 @media screen and (min-width: 1920px)
     nav
         .logo
@@ -241,11 +264,6 @@
             a
                 h2
                     font-size: 1.8rem
-
-@media screen and (min-width: 2048px)
-    nav
-        .logo
-            margin-top: 2rem
 
 @media screen and (min-width: 768px)
     nav
@@ -323,6 +341,11 @@
                         font-size: 20px
 
 // MOBILE MENU
+
+@media screen and (min-height: 800px)
+    .mobile-menu
+        ul
+            padding-top: 90px
 
 @media screen and (min-height: 780px)
     .mobile-menu
@@ -416,12 +439,9 @@
             a
                 font-size: 18px
 
-@media screen and (min-width: 601px)
+@media screen and (min-width: 960px)
     .contact-icons
-        .icons
-            a
-                // font-size: 21px
-                // margin-left: 25px
+        bottom: 27px
 
 @media screen and (min-width: 1240px)
     .contact-icons
