@@ -52,12 +52,10 @@ const carouselText = [
 
   const burgerIcon = document.querySelector('#burger4')
   const mainText = document.querySelector('.main-text')
-  const contactSection = document.querySelector('.contact')
   const mobileMenu = document.querySelector('.mobile-menu')
 
   burgerIcon.addEventListener('click', ()=>{
       mainText.classList.toggle('opacity')
-      contactSection.classList.toggle('opacity')
       let showMenu = setTimeout(()=>{
         mobileMenu.classList.toggle('display')
       },560)
@@ -72,8 +70,9 @@ const carouselText = [
   const loader = document.querySelector('.loader')
   const nav = document.querySelector('nav')
   const main = document.querySelector('main')
+  const contactSection = document.querySelector('.contact-icons')
 
-  const Loading = () => {
+  setTimeout(() => {
     loader.style.opacity = 0
     setTimeout(()=>{
       loader.style.display = 'none'
@@ -81,11 +80,9 @@ const carouselText = [
       main.style.opacity = 1
       contactSection.style.opacity = 1
     },990)
-    
-  }
+  },50)
 
-  Loading()
-  
+ 
 
 
   
