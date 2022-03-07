@@ -3,7 +3,8 @@ nav {
     top: 15px;
     left: 0;
     right: 0;
-    margin: 0 34px;
+    margin: 0 35px;
+    padding-top: 10px;
     background-color: #31313A;
     display: flex;
     justify-content: space-between;
@@ -20,7 +21,7 @@ nav {
 
             h2 {
                 font-size: 1.1rem;
-                letter-spacing: .02rem;
+                letter-spacing: .01rem;
                 font-weight: 400;
 
                 span {
@@ -36,7 +37,6 @@ nav {
 
         ul {
             display: flex;
-            margin-right: 15px;
 
             li {
                 list-style: none;
@@ -48,6 +48,10 @@ nav {
                     font-size: 16px;
                     padding: 0 20px;
                     transition: .2s
+                }
+
+                a.contact {
+                    padding-right: 0;
                 }
 
                 a:hover {
@@ -228,15 +232,15 @@ nav {
         @at-root {
             @keyframes menuCloseMiddle--base {
                 0% {
-                    background-color: rgba(0, 0, 0, 1);
+                    background-color: rgba(49, 49, 58, 1);
                 }
 
                 80% {
-                    background-color: rgba(0, 0, 0, 1);
+                    background-color: rgba(49, 49, 58, 1);
                 }
 
                 100% {
-                    background-color: rgba(0, 0, 0, 0);
+                    background-color: rgba(49, 49, 58, 0);
                 }
             }
 
@@ -277,8 +281,6 @@ nav {
     width: 3rem;
     height: 3rem;
     border-radius: 3px;
-    margin-top: 1.1rem;
-    margin-bottom: 1rem;
     margin-right: -10px;
 
     span {
