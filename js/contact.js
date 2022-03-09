@@ -127,16 +127,16 @@ formTextarea.addEventListener('input', ()=>{
 // NAV & FOOTER POSITION
 
 
-window.onscroll = function() {
-  if ((window.innerHeight + window.pageYOffset) >= document.body.offsetHeight - 1) {
-    contactSection.style.position = 'absolute'
-  } else {
-    contactSection.style.position = ''
-  }
-  if (window.scrollY === 0) {
-    nav.style.position = 'absolute'
-} else {
-    nav.style.position = ''
-}
-};
+// window.onscroll = function() {
+//   if ((window.innerHeight + window.pageYOffset) >= document.body.offsetHeight - 2) {
+//     contactSection.style.position = 'absolute'
+//   } else {
+//     contactSection.style.position = ''
+//   }
+//   if (window.scrollY === 0) {
+//     nav.style.position = 'absolute'
+// } else {
+//     nav.style.position = ''
+// }
+// };
 
