@@ -67,6 +67,13 @@
                     color: #a2a2a6
                 .info-description.mail
                     color: orange
+                .info-description.phone-number
+                    color: #a2a2a6
+                    text-decoration: none
+                span.reverse
+                    unicode-bidi: bidi-override
+                    direction: rtl
+
     .form-container
         margin-top: 120px
         margin-bottom: 120px
@@ -106,6 +113,8 @@
                 opacity: 1
                 transition: .2s
                 resize: none
+                border-radius: 0
+                -webkit-appearance: none
             input:focus, textarea:focus
                 outline: none
                 border-bottom-color: orange
@@ -130,6 +139,7 @@
                 background-color: orange
                 color: #f0f0f0
                 border: none
+
         .warining
             display: none
             margin: 20px 41px 20px 41px
